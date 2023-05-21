@@ -1,3 +1,3 @@
-# projectJavaScript
+# projectJavaScript - Meal Planner
 
-Meal Planner
+
