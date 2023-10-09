@@ -46,9 +46,7 @@ We welcome contributions to the Meal Planner project. If you'd like to contribut
 3. Make your changes and test them thoroughly.
 4. Submit a pull request with a clear description of your changes.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
