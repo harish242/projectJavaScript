@@ -1,70 +1,25 @@
 # Meal Planner Project
 
-Welcome to the Meal Planner project, a web application designed to help users plan their meals based on their daily calorie requirements. This project provides a practical solution to the challenges of managing and planning daily meals in a busy modern lifestyle.
-
-![Meal Planner](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2562ce31-9f31-46a5-9ba1-3df636d436e4/image_(1).png)
-
 ## Project Objective
 
-The objective of this project is to create a meal planner application using HTML, CSS, and JavaScript. The application will take user data, calculate their daily calorie requirement, and generate meal plans along with recipes.
+The Meal Planner project aims to provide a solution for managing and planning daily meals in a modern, busy lifestyle. It simplifies the process by taking user data, calculating their daily calorie requirements, and generating meal plans along with recipes.
 
-## Project Context
+## Features
 
-Modern life has made it challenging to manage and plan daily meals. There is a vast amount of information on the internet, making it time-consuming to find new recipes and gather all the necessary details in one place. Meal Planner aims to simplify meal planning and provide users with convenient access to recipes.
+- User-friendly user data input form.
+- Calculation of daily calorie requirements based on user data.
+- Generation of meal plans for breakfast, lunch, and dinner.
+- Access to detailed recipes for each meal.
+- Dynamic updates of calorie requirements and meal plans.
+- Integration with the Newton Food API for meal plan generation.
+- Responsive design for both mobile and desktop views.
 
-## Tech Stack Prerequisite
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-
-## Project Steps
-
-### Step 1: Nav Bar
-
-- Create a navigation section with a logo for the website.
-
-### Step 2: User Form
-
-- Implement a user form to collect data for daily calorie requirement calculation.
-- The form should include fields for weight (kg), height (cm), age, gender, and physical activity level.
-- Physical activity level should have options for "light," "moderate," and "active."
-- Include a submit button.
-
-### Step 3: Meal Plan
-
-- Display three meal cards for breakfast, lunch, and dinner.
-- Each meal card should include a meal image, meal name, calorie information, and a "get-recipe" button.
-
-### Step 4: Recipe
-
-- Create recipe tabs for "Ingredients" and "Steps."
-- Ingredients tab should list ingredients and their quantities.
-- Steps tab should display the ordered list of steps for the recipe.
-
-### Step 6: Daily Calorie Requirement
-
-- Calculate the BMR (Basal Metabolic Rate) of the user based on input data and gender.
-- Calculate the daily calorie requirement using the BMR and the user's selected physical activity level.
-
-### Step 7: Generate Meal Plan
-
-- Use the Newton Food API to generate a new meal plan based on daily calorie requirements.
-- Populate the meal plan section with meals from the API.
-- Display the meal plan section only after generating the meal plan.
-
-### Step 8: Generate Recipe
-
-- Fetch recipes from the API when the user clicks the "get-recipe" button on a meal card.
-- Display the recipe details, including ingredients and steps, in the recipe section.
-- Show the recipe section only after fetching data from the API.
-
-## Project Checkpoints
-
-- Navbar and User Form: Implement the navigation bar and user data input form.
-- Meal Plan and Recipe Section: Create the meal plan and recipe tabs.
-- Daily Calorie Calculation and Meal Plan Generation: Calculate daily calorie requirements and generate meal plans.
-- Fetching and Displaying Recipes: Fetch and display recipe details from the API.
+- [Link to Newton Food API](https://content.newtonschool.co/v1/pr/64995a40e889f331d43f70ae/categories)
 
 ## Getting Started
 
@@ -74,10 +29,26 @@ To run the Meal Planner project locally, follow these steps:
 2. Open the project folder in your code editor.
 3. Launch the project by opening the HTML file in your web browser.
 
-## Project Contributors
+## Usage
 
-- [Your Name]
-- [Team Member Names, if applicable]
+1. Fill in the user data input form with your weight, height, age, gender, and physical activity level.
+2. Click the "Submit" button to calculate your daily calorie requirement.
+3. Once calculated, your meal plan for breakfast, lunch, and dinner will be generated.
+4. Click the "Get Recipe" button on any meal card to view the detailed recipe.
+5. Enjoy planning your meals with Meal Planner!
+
+## Contributing
+
+We welcome contributions to the Meal Planner project. If you'd like to contribute, please follow these guidelines:
+
+1. Fork the project repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test them thoroughly.
+4. Submit a pull request with a clear description of your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
