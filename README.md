@@ -19,7 +19,7 @@ The Meal Planner project aims to provide a solution for managing and planning da
 - HTML
 - CSS
 - JavaScript
-- [Link to Newton Food API](https://content.newtonschool.co/v1/pr/64995a40e889f331d43f70ae/categories)
+
 
 ## Getting Started
 
